@@ -5,7 +5,7 @@ const Extension = () => {
   return (
     <>
     {/* Extension section */}
-      <section id="extension" className="mt-30 md:mt-40">
+      <section id="extension" className="mt-5 md:mt-20">
         {/* flex container */}
         <div className="flex flex-col items-center">
           {/* Title and description */}

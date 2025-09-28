@@ -7,7 +7,7 @@ const Hero = () => {
      {/* // Hero section */}
         <section id="hero" className="">
           {/* flex container */}
-          <div className="flex flex-col-reverse mx-auto md:mt-18 md:flex-row ">
+          <div className="flex flex-col-reverse mx-auto md:mt-6 md:flex-row ">
             {/* left side */}
             <div className="flex flex-col items-center mt-15 w-full md:items-start md:py-20 md:ml-40 md:mt-0 md:max-w-[32rem]">
             <h1 className="text-4xl font-bold text-center text-gray-800 md:text-start md:text-[2.5rem] md:max-w-[30rem]">
@@ -41,7 +41,7 @@ const Hero = () => {
               />
     
               {/* Background color */}
-               <div className="absolute mt-18 right-0 w-[350px] h-[230px] bg-blue-800 rounded-l-full -z-10 
+               <div className="absolute mt-18 right-[-20px] w-[350px] h-[230px] bg-blue-800 rounded-l-full -z-10 
                 md:w-[510px] md:h-[330px] md:mt-30 md:right-[-3]">
                </div>
             </div>

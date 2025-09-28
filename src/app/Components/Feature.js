@@ -8,7 +8,7 @@ const Feature = () => {
   return (
     <>
       {/* Features section */}
-      <section id="features" className="mt-30 md:mt-20">
+      <section id="features" className="mt-10 md:mt-5">
         <div className="flex flex-col">
           {/* Title and description */}
           <div className="flex flex-col items-center mb-10">
@@ -19,7 +19,7 @@ const Feature = () => {
             </p>
 
             {/* Feature cards */}
-            <div className="relative flex flex-col text-center justify-center md:flex-row md:w-[48rem]
+            <div className="relative flex flex-col text-center mt-[-30px] md:mt-0 justify-center md:flex-row md:w-[48rem]
              border-b border-gray-300">
               {/* Red active underline */}
               <span
@@ -81,9 +81,9 @@ const Feature = () => {
           </div>
 
           {/* Tab Content (Image + Text) */}
-          <div className="flex flex-col mx-auto gap-10 md:mt-10 md:gap-30 md:flex-row">
+          <div className="flex flex-col mx-auto gap-10 md:mt-1 md:gap-30 md:flex-row">
             {/* LEFT SIDE: individual image blocks per tab */}
-            <div className="relative flex justify-center w-full mt-12 md:w-1/2 md:justify-start md:mt-0">
+            <div className="relative flex justify-center w-full mt-0 md:w-1/2 md:justify-start md:mt-0">
               {activeTab === 'bookmarking' && (
                 <>
                   <Image
@@ -137,7 +137,7 @@ const Feature = () => {
             </div>
 
             {/* RIGHT SIDE: dynamic shared text */}
-            <div className="flex flex-col items-center mt-15 w-full md:items-start md:pt-13 md:mt-0 md:max-w-[25rem]">
+            <div className="flex flex-col items-center mt-0 w-full md:items-start md:pt-13 md:mt-0 md:max-w-[25rem]">
               <h3 className="text-3xl font-bold text-center text-gray-800 md:text-start md:text-3xl md:max-w-[30rem]">
                 {activeTab === 'bookmarking' && 'Bookmark in one click'}
                 {activeTab === 'searching' && 'Intelligent search'}

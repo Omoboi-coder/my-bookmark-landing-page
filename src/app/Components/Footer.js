@@ -25,9 +25,9 @@ const Footer = () => {
 
   return (
     <>
-      <section id="footer" className="bg-blue-500 mt-25">
+      <section id="footer" className="bg-blue-500 mt-2 md:mt-5">
         <div className="flex mx-auto justify-center">
-          <div className="text-center w-full pt-15 md:my-6 max-w-[27rem]">
+          <div className="text-center w-full pt-10 md:pt-5 my-0 md:my-2 max-w-[27rem]">
             <h4 className="text-white text-xl">35,000+ ALREADY JOINED.</h4>
             <h2 className="text-white text-3xl font-bold mt-5">
               Stay up-to-date with what we’re doing
@@ -44,7 +44,7 @@ const Footer = () => {
                     setEmail(e.target.value)
                     if (error) setError('')
                   }}
-                  className={`px-4 py-3 bg-white text-black text-[15px] w-full 
+                  className={`px-4 py-3 bg-white text-black text-[15px] w-full focus:outline-none  
                     ${error ? 'border-2 border-red-500' : 'border-none'} 
                   `}
                 />
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
 
         {/* Footer bottom */}
-        <div className="flex flex-col py-7 mt-10 gap-6 bg-blue-950 md:px-40 md:flex-row md:gap-15">
+        <div className="flex flex-col py-5 md:py-5 mt-5 md:mt-5 gap-6 bg-blue-950 md:px-40 md:flex-row md:gap-15">
           <div className="flex justify-center">
             <Image
               src="/images/logo-bookmark-white.svg"
@@ -97,7 +97,7 @@ const Footer = () => {
             <a href="#" className="text-gray-300 hover:text-red-400">CONTACT</a>
           </div>
 
-          <div className="flex gap-10 w-[30px] h-[20px] ml-[10.5rem] mb-6 md:ml-[25rem] md:mt-2 md:mb-0">
+          <div className="flex gap-10 w-[30px] h-[20px] ml-[10.5rem] mb-3 md:ml-[25rem] md:mt-2 md:mb-0">
             <Image
               src="/images/icon-facebook.svg"
               alt="facebook logo"

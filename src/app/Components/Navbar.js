@@ -8,7 +8,7 @@ const Navbar = () => {
       {/* Nav bar container */}
       <nav className="mx-auto">
         {/* Flex container */}
-        <div className="flex items-center justify-between px-7 py-4 mt-3 md:px-40 md:mt-5">
+        <div className="flex items-center justify-between px-7 py-4 mt-3 md:px-40 md:mt-2">
           {/* Logo (Desktop only) */}
           <div className="items-center md:flex">
             <Image
@@ -21,7 +21,7 @@ const Navbar = () => {
           </div>
 
           {/* Navigation links (Desktop) */}
-          <div className="hidden md:flex space-x-11 items-center text-[14px]">
+          <div className="hidden md:flex space-x-15 items-center text-[14px]">
             <a href="#" className="text-gray-800 hover:text-red-500">FEATURES</a>
             <a href="#" className="text-gray-800 hover:text-red-500">PRICING</a>
             <a href="#" className="text-gray-800 hover:text-red-500">CONTACT</a>

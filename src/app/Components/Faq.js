@@ -41,7 +41,7 @@ const Faq = () => {
   ]
 
   return (
-    <section id="faq" className="mt-20 md:mt-30">
+    <section id="faq" className="mt-10 md:mt-10">
       <div className="flex flex-col items-center mx-auto px-4 md:px-0">
         {/* Title */}
         <div className="flex flex-col items-center mb-10">

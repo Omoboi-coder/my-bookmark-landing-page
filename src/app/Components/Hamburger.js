@@ -10,7 +10,7 @@ const HamburgerMenu = () => {
   return (
     <>
       {/* Hamburger Button (top right on mobile) */}
-      <div className="flex justify-end w-full px-4">
+      <div className="flex justify-end w-full px-0">
         <button onClick={toggleMenu} className="mt-2 focus:outline-none z-50">
           <Image
             src={menuOpen ? '/images/icon-close.svg' : '/images/icon-hamburger.svg'}
