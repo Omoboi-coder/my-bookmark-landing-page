@@ -137,7 +137,7 @@ const Feature = () => {
             </div>
 
             {/* RIGHT SIDE: dynamic shared text */}
-            <div className="flex flex-col items-center mt-8 w-full md:items-start md:pt-13 md:mt-0 md:max-w-[25rem]">
+            <div className="flex flex-col items-center mt-8 w-fit md:items-start md:pt-13 md:mt-0 md:max-w-[25rem]">
               <h3 className="text-3xl font-bold text-center text-gray-800 md:text-start md:text-3xl md:max-w-[30rem]">
                 {activeTab === 'bookmarking' && 'Bookmark in one click'}
                 {activeTab === 'searching' && 'Intelligent search'}

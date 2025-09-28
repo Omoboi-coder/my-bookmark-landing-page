@@ -41,7 +41,7 @@ const Hero = () => {
               />
     
               {/* Background color */}
-               <div className="absolute mt-18 right-[-20px] w-[350px] h-[230px] bg-blue-800 rounded-l-full -z-10 
+               <div className="absolute mt-18 right-0 w-[350px] h-[230px] bg-blue-800 rounded-l-full -z-10 
                 md:w-[510px] md:h-[330px] md:mt-30 md:right-[-3]">
                </div>
             </div>
